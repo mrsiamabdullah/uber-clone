@@ -1,0 +1,59 @@
+/* Global Styles  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  max-width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: var(--Black-Color);
+  color: var(--White-Color);
+}
+
+:root {
+  /* Color  */
+  --White-Color: #ffffff;
+  --Black-Color: #000000;
+  --Section-Background-Color: #f6f6f6;
+
+  /* Font Size  */
+  font-size: 62.5%;
+  --H1-Size: 48px;
+  --H2-Size: 36px;
+  --Typeface-Normal: 24px;
+  --Paragraph-Size: 16px;
+  --Paragraph-Small: 14px;
+}
+
+.container {
+  max-width: 1275px;
+  margin: auto;
+  padding: 2rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  color: var(--White-Color);
+  font-size: var(--Paragraph-Size);
+  cursor: pointer;
+}

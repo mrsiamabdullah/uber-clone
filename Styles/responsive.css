@@ -1,0 +1,189 @@
+@media (max-width: 1124px) {
+  .hero-image,
+  .section-two-image {
+    max-width: 375px;
+  }
+}
+
+@media (max-width: 924px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hidden-logo {
+    display: block;
+    max-width: 75px;
+  }
+
+  .global {
+    display: none;
+  }
+
+  .help {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    color: var(--White-Color);
+    font-size: 20px;
+  }
+
+  .extra-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero-wrap {
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .drive-section-wrap {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+    gap: 2rem;
+  }
+
+  .section-two-content {
+    max-width: 775px;
+  }
+
+  .qr-code-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .footer-wrap {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .hero-content {
+    max-width: 325px;
+  }
+
+  .section-two-content {
+    h2 {
+      font-size: 3rem;
+    }
+
+    .button {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+    }
+
+    .account {
+      margin: 0;
+    }
+  }
+
+  .qr-code-wrap-one,
+  .qr-code-wrap-two,
+  h4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .qr-code-wrap-one {
+    margin-bottom: 3rem;
+  }
+
+  .right-arrow {
+    display: none;
+  }
+
+  .footer-heading {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 3rem;
+  }
+
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+
+  .download-apps {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .copyright p span {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .copyright {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .search-bar {
+    max-width: 245px;
+  }
+
+  .hero-content {
+    h2 {
+      font-size: 4rem;
+    }
+  }
+
+  .section-two-content {
+    h2 {
+      font-size: 2.6rem;
+    }
+  }
+
+  .hidden-logo {
+    width: 55px;
+  }
+
+  .menu {
+    margin-left: -1rem;
+  }
+
+  .extra-links a {
+    font-size: 12px;
+  }
+
+  .qr-code-wrap-one,
+  .qr-code-wrap-two,
+  h4 {
+    font-size: 1.6rem;
+  }
+
+  .qr-code-wrap-one,
+  .qr-code-wrap-two,
+  article {
+    font-size: 1.4rem;
+  }
+}

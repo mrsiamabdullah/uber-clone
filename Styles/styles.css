@@ -1,0 +1,382 @@
+/* Header Section  */
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+}
+
+h3 {
+  font-size: 2.6rem;
+  font-weight: 300;
+  color: var(--White-Color);
+  margin-right: 3rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.extra-links {
+  display: flex;
+  gap: 1rem;
+}
+
+ul li a {
+  font-size: var(--Paragraph-Small);
+  color: var(--White-Color);
+  font-weight: 500;
+  transition: 0.3s;
+  padding: 0.8rem 1.8rem;
+}
+
+ul li a:hover {
+  background-color: #282828;
+  border-radius: 25px;
+}
+
+.sing-up {
+  background-color: var(--White-Color);
+  color: var(--Black-Color);
+  font-weight: 600;
+  padding: 0.6rem 1.4rem;
+  border: solid 1px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.sing-up:hover {
+  color: var(--White-Color);
+  background-color: transparent;
+}
+
+.about {
+  color: var(--White-Color);
+  font-size: 16px;
+}
+
+.world {
+  color: var(--White-Color);
+  font-size: 16px;
+}
+
+.hidden-logo {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+/* Hero Section */
+.hero-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.hero-content h2 {
+  font-size: 54px;
+  max-width: 475px;
+  margin-bottom: 3rem;
+}
+
+.hero-content p {
+  font-size: var(--Paragraph-Size);
+  margin-bottom: 2rem;
+}
+
+.see-prices {
+  display: inline-block;
+  font-size: var(--Paragraph-Size);
+  color: var(--Black-Color);
+  padding: 0.8rem 2rem;
+  border: solid 1px;
+  background-color: var(--White-Color);
+  border-radius: 25px;
+  transition: 0.3s;
+  margin-top: 2rem;
+}
+
+.see-prices:hover {
+  background-color: transparent;
+  color: var(--White-Color);
+}
+
+.plane-icon {
+  font-size: 25px;
+  color: var(--Black-Color);
+}
+
+.search-bar {
+  height: 40px;
+  display: flex;
+  width: 400px;
+  padding: 1rem 1.4rem;
+  background-color: var(--White-Color);
+  border-radius: 25px;
+  align-items: center;
+}
+
+.search-bar input {
+  font-size: var(--Paragraph-Small);
+  width: 100%;
+  outline: none;
+  border: none;
+  transition: 0.3s;
+  background: transparent;
+}
+
+/* Section Two */
+.section-two {
+  background-color: var(--White-Color);
+  margin-top: 5rem;
+}
+
+.drive-section-wrap {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-two-content {
+  max-width: 475px;
+}
+
+.section-two-content h2 {
+  font-size: 52px;
+  color: var(--Black-Color);
+}
+
+.section-two-content p {
+  margin: 3rem 0;
+  font-size: var(--Paragraph-Size);
+  color: var(--Black-Color);
+  max-width: 375px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+}
+
+.button a {
+  display: inline-block;
+  font-size: var(--Paragraph-Size);
+  color: var(--White-Color);
+  padding: 0.8rem 2rem;
+  border: solid 1px;
+  background-color: var(--Black-Color);
+  border-radius: 25px;
+  transition: 0.3s;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.button a:hover {
+  background-color: transparent;
+  color: var(--Black-Color);
+}
+
+.account p {
+  margin: 0;
+  margin-bottom: 0.3rem;
+  text-align: center;
+}
+
+.line {
+  height: 1px;
+  background-color: var(--Black-Color);
+  width: 245px;
+}
+
+.line-2 {
+  height: 1px;
+  background-color: var(--Black-Color);
+  width: 175px;
+}
+
+.account {
+  margin-left: 3rem;
+  cursor: pointer;
+}
+
+/* QR Code Scaning Section  */
+.qr-code-section {
+  background-color: var(--Section-Background-Color);
+}
+
+.qr-code-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.qr-heading-2 {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  color: var(--Black-Color);
+  font-size: var(--H2-Size);
+}
+
+.qr-code-wrap-one,
+.qr-code-wrap-two {
+  display: flex;
+  align-items: center;
+  background-color: var(--White-Color);
+  padding: 3rem;
+  cursor: pointer;
+}
+
+.qr-code-wrap-one,
+.qr-code-wrap-two,
+h4 {
+  color: var(--Black-Color);
+  font-size: 24px;
+  padding: 3rem;
+  font-weight: 600;
+}
+
+.qr-code-wrap-one,
+.qr-code-wrap-two,
+article {
+  color: var(--Black-Color);
+  font-size: var(--Paragraph-Size);
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.qr-code-wrap-one,
+.qr-code-wrap-two,
+i {
+  color: var(--Black-Color);
+  font-size: 24px;
+}
+
+.qr-code-wrap-one i {
+  opacity: 0;
+  transition: 0.4s;
+  position: absolute;
+}
+
+.qr-code-wrap-one:hover i {
+  opacity: 1;
+  transform: translateX(1rem);
+}
+
+.qr-code-wrap-two i {
+  opacity: 0;
+  transition: 0.4s;
+  position: absolute;
+}
+
+.qr-code-wrap-two:hover i {
+  opacity: 1;
+  transform: translateX(1rem);
+}
+
+/* ---  */
+/* Footer Section  */
+.footer-heading {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-heading p {
+  margin-top: 1rem;
+  font-size: var(--Paragraph-Small);
+  cursor: pointer;
+}
+
+.footer-heading p:hover {
+  color: #a9a9a9;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10rem;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+}
+
+.company a {
+  margin-bottom: 1.4rem;
+  font-size: var(--Paragraph-Small);
+  color: #c0bdbd;
+}
+
+.company a:hover {
+  color: var(--White-Color);
+  text-decoration: underline;
+}
+
+.company p {
+  font-size: var(--Paragraph-Size);
+  margin-bottom: 3rem;
+}
+
+.social-wrap {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links a {
+  color: var(--White-Color);
+  font-size: var(--Paragraph-Small);
+}
+
+.social-wrap {
+  margin-left: -3rem;
+}
+
+.social-icon i,
+.social-links i {
+  color: var(--White-Color);
+  font-size: 18px;
+  margin-left: 3rem;
+}
+
+.download-apps img {
+  max-width: 125px;
+  height: auto;
+}
+
+.download-apps {
+  margin-top: 5rem;
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  margin: 6rem 0 2rem 0;
+}
+
+.copyright p {
+  color: #c0bdbd;
+  font-size: var(--Paragraph-Small);
+}
+
+.copyright p span {
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.copyright p span:hover {
+  color: var(--White-Color);
+  text-decoration: underline;
+}
